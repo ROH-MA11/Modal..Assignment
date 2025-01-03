@@ -1,0 +1,35 @@
+.backdrop{
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    position: fixed;
+    z-index: 1;
+}
+.modal{
+    height: 250px;
+    width: 250px;
+    border:1px solid black;
+     border-radius: 5px;
+    background-color:rgb(226, 196, 159);
+    text-align: center;
+    z-index: 6;
+    opacity: 0;
+    transform:translateY(-100vh);
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+ .confirm-modal .close-modal {
+font-style: normal;
+margin-top: 1px;
+margin-left:1px ;
+padding: 2px;
+ }
